@@ -34,6 +34,8 @@
 8. Launch the model.
  
  ## Future Goals Regarding This Project
-  1. Reducing Code Complexity - As there is lots of lines of code which is hard to understand by beginners and in further version of this project code refactoring and easily readable by beginners to understand core concepts of this project 
-  2. usage of latest pretrained model - as to train this project it took lots of time and by introducing latest pretrained model (ConvNeXtXLarge) .by using this we can achieve 99+ % accuracy with lower iteration to reduce both computational strain and saves time.
-  3.  Provide end to end fire detection model - already this model can classify and detect different images containing fire and by using further computer vision concepts and introduce latest object detection Model(YOLO V7).
+ Code Refactoring & Simplification: The codebase will be refactored to improve modularity, readability, and documentation. The goal is to make the core concepts more accessible to beginners learning about deep learning and computer vision.
+
+Integration of Advanced Models: We plan to leverage newer, more powerful pre-trained models like ConvNeXt-XLarge. This is expected to boost accuracy beyond 99% while significantly reducing training time and computational requirements.
+
+Real-Time Object Detection: Transitioning from image classification to real-time object detection using a framework like YOLOv7/YOLOv8 or Detectron2. This will allow for precise localization of fire within a video stream, making the system suitable for live monitoring and alert systems.
